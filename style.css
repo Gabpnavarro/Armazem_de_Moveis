@@ -1,0 +1,117 @@
+body{
+    background-image: url(img/GTR\ 33.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+h1 img {
+    width: 254px;
+    height: 177px;
+}
+
+header {
+    background-color:#AAFF83;
+    height: 207px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 159px;
+    border-bottom: solid #557F41 1px;
+    gap: 2em;    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 10em;
+    gap: 2em;
+}
+
+nav a{
+    margin: 5px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.itens-geral{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.itens-geral ul{
+    display: flex;
+    list-style: none;
+    gap: 3.5em;
+}
+
+.input-padrao {
+	padding: 1em 50%;
+    border-radius: 8px;
+    border: none;
+}
+
+.destaques{
+    max-width: 900px;
+    width: 60%;
+    margin: 2em auto;
+    height: 80%;
+}
+
+.destaques h2 {
+    font-size: 1.8em;
+}
+
+.destaques > h2 {
+    margin-bottom: 1em;
+}
+
+.destaques-fotos-informacoes{
+    border: solid #578940 1px;
+    border-radius: 8px;
+}
+
+.destaques-fotos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.vetor {
+    
+    border-radius: 8px;
+    background-color: #1F6200;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.destaques-fotos > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img-destaques {
+    width: 90%;
+}
