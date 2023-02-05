@@ -6,7 +6,14 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  font-size: 16px;
+}
+
+body h3{
+    font-size: 9px;
+}
+
+body h2{
+    font-size: 12px;
 }
 
 h1 img {
@@ -35,6 +42,10 @@ nav ul{
     list-style: none;
     margin-left: 10em;
     gap: 2em;
+}
+
+li {
+    font-size: 9px;
 }
 
 nav a{
@@ -74,16 +85,10 @@ nav a:hover {
     max-width: 900px;
     width: 60%;
     margin: 2em auto;
-    height: 80%;
 }
 
 .destaques > h3 {
     margin: 1em;
-    font-weight: 400;
-}
-
-.destaques h2 {
-    font-size: 1.8em;
 }
 
 .destaques > h2 {
@@ -106,6 +111,7 @@ nav a:hover {
 }
 
 .vetor {    
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -123,6 +129,7 @@ nav a:hover {
 
 .img-destaques {
     width: 90%;
+    height: auto;
 }
 
 .destaques-informacoes{
@@ -192,4 +199,62 @@ nav a:hover {
     background-color: transparent;
     border: 1px solid;
     font-size: 20px;
+}
+
+.linha-horizontal {
+    width: 75%;
+    height: 1px;
+    background-color: black;
+    margin: 2em auto;
+}
+
+.mais-vendidos{
+    max-width: 900px;
+    width: 60%;
+    margin: 2em auto;
+    height: 80%;
+}
+.titulo-mais-vendidos {
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-mais-vendidos button{
+    border: transparent;
+    font-size: 9px;
+    color:#1F6200;
+}
+
+
+
+.produtos-mais-vendidos{
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    display: flex;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.produto > img{
+    width: 80%;
+    height: 18vh;
+}
+
+.produto h3:nth-of-type(2){
+    text-decoration: line-through;
+}
+
+.produto h3:nth-of-type(3){
+    color:#1F6200;
+}
+
+strong {
+    font-weight: bold;
 }
