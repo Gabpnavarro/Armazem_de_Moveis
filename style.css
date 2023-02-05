@@ -1,8 +1,12 @@
-body{
-    background-image: url(img/GTR\ 33.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100vh;
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
 }
 
 h1 img {
@@ -73,6 +77,11 @@ nav a:hover {
     height: 80%;
 }
 
+.destaques > h3 {
+    margin: 1em;
+    font-weight: 400;
+}
+
 .destaques h2 {
     font-size: 1.8em;
 }
@@ -84,6 +93,7 @@ nav a:hover {
 .destaques-fotos-informacoes{
     border: solid #578940 1px;
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
 .destaques-fotos{
@@ -92,17 +102,14 @@ nav a:hover {
     justify-content: center;
     position: relative;
     justify-content: space-between;
+    height: 30vh;
 }
 
-.vetor {
-    
-    border-radius: 8px;
-    background-color: #1F6200;
-    width: 64px;
-    height: 64px;
+.vetor {    
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border: transparent;
 }
 
 .destaques-fotos > img {
@@ -110,8 +117,79 @@ nav a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    margin-top: 2px;
+    height: 30vh;
 }
 
 .img-destaques {
     width: 90%;
+}
+
+.destaques-informacoes{
+    background-color:#AAFF83;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px -1px 2px 0px gray;
+}
+
+.destaques-info-esquerda{
+    display: flex;
+}
+
+.precos  h3{
+    margin-bottom: 0.5em;
+    font-weight: 400;
+}
+
+.precos  h4{
+    margin-bottom: 0.5em;
+}
+
+.destaques-info-esquerda h4{ 
+    text-decoration: line-through;
+}
+
+.preco-promocional{
+    display: flex;
+}
+
+.preco-promocional h3{
+    margin: auto;
+}
+
+.preco-promocional h2{
+    color: #236604;
+    font-weight: bold;
+}
+
+.destaques-info-direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaques-info-direita :first-child{
+    margin-bottom: 1em;
+    border-radius: 5px;
+    height: 2em;
+    width: 9em;
+    color: white;
+    background-color: #1F6200;
+    font-weight: bold;
+    border: transparent;
+    font-size: 20px;
+}
+
+.destaques-info-direita :last-child{
+    border-radius: 5px;
+    height: 1.7em;
+    width: 11em;
+    background-color: transparent;
+    border: 1px solid;
+    font-size: 20px;
 }
