@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
+
 *{
     box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
 
 body {
   font-family: 'Segoe UI', sans-serif;
 }
 
 h3{
-    font-size: 13px;
+    font-size: 16px;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 24px;
+}
+
+h4{
+    font-size: 14px;
 }
 
 h1 img {
@@ -59,12 +63,11 @@ a{
 }
 nav a{
     margin: 5px;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 nav a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 ul >li {
@@ -87,10 +90,41 @@ ul >li {
 .itens-geral ul{
     display: flex;
     list-style: none;
-    gap: 3.5em;
+    gap: 3.5em;    
 }
 
-.input-padrao {
+.itens-geral button{
+    background-color: transparent;
+    border: transparent;
+}
+  
+.itens-geral button {
+    position: relative;
+}
+  
+.itens-geral button::after {
+    content: attr(title);
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgb(255, 255, 255);
+    color: #black;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight:500;
+}
+  
+.itens-geral button:hover::after {
+    display: block;
+}
+
+button > title{
+    color: black;
+}
+
+#busque {
 	padding: 1em;
     padding-right: 90%;
     border-radius: 8px;
@@ -244,11 +278,11 @@ ul >li {
 
 }
 
-.titulo button{
+.titulo a{
     border: transparent;
     font-size: 20px;
     color:#1F6200;
-    background-color: transparent;
+    text-decoration: none;
 }
 
 .produtos{
@@ -269,8 +303,8 @@ ul >li {
 }
 
 .produto > img{
-    width: 80%;
-    height: 30vh;
+    width: 200px;
+    height: 300px;
 }
 
 .produto h3:nth-of-type(2){
@@ -283,6 +317,10 @@ ul >li {
 
 strong {
     font-weight: bold;
+}
+
+.espaco{
+    margin: 4em;
 }
 
 .footer{
@@ -308,8 +346,78 @@ strong {
     gap: 1em;
 }
 
+/* produtos */
 
 
+.filtro{
+    margin: 5em;
+}
 
+.filtros{
+    border: solid #1F6200;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    margin-bottom: 1em;
+}
 
+.titulo-filtro{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.filtros h3{
+    padding: 0.3em;
+    margin-bottom: 1em;
+}
+
+.linha{
+    background-color: #C7C7C7;
+    height: 1px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.aplicar{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1em;
+    padding: 0.3em;
+}
+
+.aplicar button{
+    background-color: #1F6200;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    height: 2em;
+}
+
+#busque-cor{
+    margin: 0 auto;
+    padding: 1em;
+    padding-right: 10%;
+    margin-left: 1em;
+    border-radius: 8px;
+    border: solid #1F6200;
+    border: none;
+    background: url(./img/lupa.svg) no-repeat right;
+}
+
+.cores{
+    display: flex;
+    justify-content: space-around;
+}
+
+.preco{
+    margin-left: 1em;
+}
+
+.main-produtos{
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-start;
+    width: 80%;
+}
 
