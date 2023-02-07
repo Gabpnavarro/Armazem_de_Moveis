@@ -1,0 +1,108 @@
+.filtro{
+    margin-top: 6em;
+}
+
+.filtros{
+    border: 1px solid #1F6200;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    margin-bottom: 1em;
+}
+
+.titulo-filtro{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#titulo-produtos-ordenar{
+    padding: 0 5em;
+}
+
+.ordenar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2em;
+}
+
+.ordenar img{
+    margin-right: 1em;
+}
+
+.ordenar h4{
+    border: #1F6200 solid 1px;
+    border-radius: 6px;
+    margin-left: 1em;
+    padding: 0.3em;
+}
+
+.filtros h3{
+    padding: 0.3em;
+    margin-bottom: 1em;
+}
+
+.linha{
+    background-color: #C7C7C7;
+    height: 1px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.aplicar{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1em;
+    padding: 0.3em;
+}
+
+.aplicar button{
+    background-color: #1F6200;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    height: 2em;
+}
+
+#busque-cor{
+    margin: 0 auto;
+    padding: 1em;
+    padding-right: 10%;
+    margin-left: 1em;
+    border-radius: 8px;
+    border: solid #1F6200;
+    border: none;
+    background: url(./img/lupa.svg) no-repeat right;
+}
+
+.cores{
+    display: flex;
+    justify-content: space-around;
+}
+
+.preco{
+    margin-left: 1em;
+}
+
+.main-produtos{
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.paginas{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.paginas a:hover{
+    color:#1F6200;    
+    font-size: 25px;
+    transition: 1s;
+}
+
+
