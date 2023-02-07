@@ -1,0 +1,98 @@
+.apresentacao-dos-produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+    margin: 0 auto;
+    height: 500px;
+    margin: 2em 0;
+    
+}
+
+.fotos-secundarias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.fotos-secundarias img{
+    height: 150px;
+    width: 200px;    
+}
+
+.foto-principal{
+    height: calc(150px * 3);
+    display: flex;
+    height: auto;
+}
+
+.informacoes-sobre-o-produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.estrelas img{
+    margin-bottom: 0.7em;
+    margin-right: 1em;
+}
+
+.informacoes-sobre-o-produto h3:nth-of-type(1) {
+    text-decoration: line-through;
+    margin-bottom: -1.5em;
+}
+
+.informacoes-sobre-o-produto div:nth-of-type(2) {
+    margin-bottom: -2em;
+}
+
+.informacoes-sobre-o-produto h3:nth-of-type(2) {
+    color: #1F6200;
+}
+
+.compre-agora-produto{
+    margin: 0 auto -2em;
+}
+
+.informacoes-sobre-o-produto h4:nth-of-type(1) {
+    margin-bottom: -1em;
+}
+
+.frete{
+    display: flex;
+    flex-direction: column;
+}
+
+#cep{
+    margin-top: 1em;
+    width: 88%;
+    min-width: 110px;
+    padding: 0.5em;
+    border-radius: 8px;
+    border: #1F6200 solid 1px;
+    margin-right: 1em;
+}
+
+#calcular{
+    border-radius: 6px;
+    height: 2em;
+    width: 80px;
+    color: white;
+    background-color: #1F6200;
+    font-weight: bold;
+    border: transparent;
+    font-size: 16px;
+}
+
+.frete-calcular{
+    display: flex;
+    flex-direction: rox;
+    align-items: flex-end;
+}
+
+
+
+
+

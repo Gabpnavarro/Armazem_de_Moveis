@@ -25,8 +25,6 @@ h4{
     font-size: 14px;
 }
 
-
-
 header {
     background-color:#AAFF83;
     height: auto;
@@ -256,7 +254,7 @@ button > title{
     justify-content: center;
 }
 
-.destaques-info-direita :first-child{
+#compre-agora{
     margin-bottom: 1em;
     border-radius: 5px;
     height: 2em;
