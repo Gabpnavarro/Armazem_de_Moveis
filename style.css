@@ -8,32 +8,44 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
-h3{
-    font-size: 16px;
+h1 img {
+    width: 254px;
+    height: 177px;
 }
 
 h2{
     font-size: 24px;
 }
 
+h3{
+    font-size: 16px;
+}
+
 h4{
     font-size: 14px;
 }
 
-h1 img {
-    width: 254px;
-    height: 177px;
-}
+
 
 header {
     background-color:#AAFF83;
-    height: 207px;
+    height: auto;
 }
 
 footer {
     background-color:#AAFF83;
-    height: 207px;
+    height: auto;
     display: flex;
+}
+
+a:hover{
+    font-size: 20px;
+    transition: 2s;
+}
+
+button:hover {
+    font-size: 20px;
+    transition: 1s;
 }
 
 .header {
@@ -42,7 +54,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: 159px;
+    height: auto;
     border-bottom: solid #557F41 1px;
     gap: 2em;    
 }
@@ -75,6 +87,7 @@ ul >li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .itens-geral{
@@ -82,7 +95,6 @@ ul >li {
     display: flex;
     align-items: center;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
     width: 100%;
 }
@@ -90,7 +102,8 @@ ul >li {
 .itens-geral ul{
     display: flex;
     list-style: none;
-    gap: 3.5em;    
+    flex-wrap: wrap;
+    justify-content: space-around;   
 }
 
 .itens-geral button{
@@ -114,6 +127,7 @@ ul >li {
     padding: 10px;
     border-radius: 5px;
     font-weight:500;
+    border:solid #557F41 1px;
 }
   
 .itens-geral button:hover::after {
@@ -134,7 +148,7 @@ button > title{
 }
 
 .container{
-    width: 60%;
+    width: 70%;
     margin: 2em auto;
 }
 
@@ -148,14 +162,13 @@ button > title{
     border: solid #578940 1px;
     border-radius: 8px;
     height: 50vh;
-    max-width: 800px;
+    width: 70%;
     margin: 0 auto;
 }
 
 .destaques-fotos{
     display: flex;
     align-items: center;
-    justify-content: center;
     position: relative;
     justify-content: space-between;
     height: 36.8vh;
@@ -180,7 +193,8 @@ button > title{
     left: 50%;
     transform: translate(-50%,-50%);
     margin-top: 2px;
-    height: 30vh;
+    height: 50vh;
+    width: 60%;
 }
 
 .img-destaques {
@@ -287,10 +301,11 @@ button > title{
 
 .produtos{
     display: flex;
-    gap: 1em;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
 }
 
 .produto{
@@ -299,11 +314,11 @@ button > title{
     align-items: center;
     gap: 1em;
     text-align: center;
-    width: 23%;
+    margin-bottom: 1em;
 }
 
 .produto > img{
-    width: 200px;
+    width: 280px;
     height: 300px;
 }
 
@@ -336,7 +351,9 @@ strong {
 .footer nav ul{
     display: flex;
     flex-direction: row;
-    gap: 5em;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
     text-align: center;
 }
 
@@ -354,7 +371,7 @@ strong {
 }
 
 .filtros{
-    border: solid #1F6200;
+    border: 1px solid #1F6200;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
