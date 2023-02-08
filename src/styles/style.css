@@ -71,7 +71,7 @@ strong {
 }
 
 .linha-horizontal {
-    width: 75%;
+    width: 80%;
     max-width: 1300px;
     height: 1px;
     background-color: black;
@@ -103,65 +103,11 @@ strong {
     margin-bottom: 1em;
 }
 
-.produtos{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: auto;
-}
-
-.produto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1em;
-    text-align: center;
-    margin-bottom: 1em;
-}
-
-.produto > img{
-    width: 280px;
-    height: 300px;
-}
-
-.produto h3:nth-of-type(2){
-    text-decoration: line-through;
-}
-
-.produto h3:nth-of-type(3){
-    color:#1F6200;
-}
-
 .espaco{
     margin: 4em;
 }
 
-.footer{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: 60%;
-    margin: 0 auto;
-    justify-content: space-around;
-    
-}
 
-.footer nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    height: auto;
-    text-align: center;
-}
-
-.localizacao{
-    display: flex;
-    align-items: center;
-    gap: 1em;
-}
 
 
 

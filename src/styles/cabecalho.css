@@ -22,11 +22,21 @@ header {
     gap: 2em;
 }
 
-.itens-geral ul{
+.itens-geral{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.itens-geral ul {
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
-    justify-content: space-around;   
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    max-width: 1000px;
+    width: 60vw;
 }
 
 .itens-geral button{
@@ -61,14 +71,7 @@ button > title{
     color: black;
 }
 
-.itens-geral{
-    height: 48px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
+
 
 #busque {
 	padding: 1em;
@@ -80,11 +83,11 @@ button > title{
 }
 
 @media (max-width: 1100px) {
+    
     .cabecalho{
         flex-direction: column;
         height: auto;
         width: 100%;
-        margin-bottom: 1em;
     }    
 
     .busque-no-armazem{
@@ -111,12 +114,30 @@ button > title{
 
 @media (max-width: 768px) {
 
+    .itens-geral{
+        height: 50px;
+    }
+
+    .itens-geral ul {
+        width: 90vw;
+        
+    }
+
     #busque{
         padding-right: 0%;
     }
 }
 
 @media (max-width: 500px) {
+
+    .itens-geral{
+        height: 70px;
+    }
+
+    .itens-geral ul {
+        width: 70vw;
+    }
+
     .cabecalho nav ul{
         display: flex;
         flex-wrap: wrap;

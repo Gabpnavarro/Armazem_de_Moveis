@@ -9,7 +9,6 @@
     display: flex;
     justify-content: space-between;
     font-weight: 400;
-
 }
 
 .titulo a{
@@ -32,7 +31,7 @@
 .produtos{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     height: auto;
@@ -58,4 +57,16 @@
 
 .produto h3:nth-of-type(3){
     color:#1F6200;
+}
+
+@media (max-width: 768px) {
+
+    .titulo {
+        margin: 0;
+    }
+
+    .produto > img {
+        margin-top: 1em;
+        width: 100%;
+    }  
 }
