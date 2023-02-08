@@ -1,3 +1,7 @@
+p {
+    font-size: 16px;
+}
+
 .apresentacao-dos-produtos{
     display: flex;
     flex-direction: row;
@@ -92,7 +96,13 @@
     align-items: flex-end;
 }
 
+.descricao{
+    max-width: 1350px;
+    margin: 0 auto;
+}
 
-
+.descricao-informacoes{
+    margin: 2em 0;
+}
 
 
