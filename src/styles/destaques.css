@@ -1,0 +1,195 @@
+.destaques{
+    width: 70%;
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+.destaques > h2 {
+    margin: 1em;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.destaques-fotos-informacoes{
+    border: solid #578940 1px;
+    border-radius: 8px;
+    height: 50vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.destaques-fotos{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    height: 36.8vh;
+}
+
+.vetor {    
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: transparent;
+    background-color: transparent;
+}
+
+.vetor > img  {
+    width: 80%;
+}
+
+.destaques-fotos > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 2px;
+    height: auto;
+    max-height: 460px;
+    width: calc(auto - 20%);
+}
+
+.img-destaques {
+    width: 90%;
+    height: auto;
+}
+
+.destaques-informacoes{
+    background-color:#AAFF83;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px -1px 2px 0px gray;
+}
+
+.destaques-info-esquerda{
+    display: flex;
+}
+
+.precos h2{
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+.precos h3{
+    margin-bottom: 0.5em;
+}
+
+.precos h3{ 
+    text-decoration: line-through;
+}
+
+.preco-promocional{
+    display: flex;
+
+}
+
+.preco-promocional h3{
+    margin: auto;
+}
+
+.preco-promocional h2:first-child{
+    font-weight: 500;
+}
+
+.preco-promocional h2:last-child{
+    color: #236604;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.destaques-info-direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#compre-agora{
+    margin-bottom: 1em;
+    border-radius: 5px;
+    height: 2em;
+    width: 9em;
+    color: white;
+    background-color: #1F6200;
+    font-weight: bold;
+    border: transparent;
+    font-size: 20px;
+}
+
+.destaques-info-direita :last-child{
+    border-radius: 5px;
+    height: 1.7em;
+    width: 11em;
+    background-color: transparent;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .destaques-fotos > img{
+        height: 25vh;
+    }
+
+    .preco-promocional h2:last-child{
+        font-size: 18px;
+    }
+
+    .destaques-info-direita :first-child{
+        font-size: 16px;
+    }
+
+    .destaques-info-direita :last-child{
+        font-size: 16px;
+    }
+
+    .destaques-informacoes {
+        height: 12.9vh;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .destaques>h2{
+        text-align: center;
+    }
+
+    .destaques-fotos{
+        height: 30vh;
+    }
+    .destaques-informacoes{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        gap: 1em;
+        padding: 1em;
+        width: 100%;
+    }
+
+    .destaques-fotos-informacoes{
+        height: auto ;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 300px) {
+    #compre-agora{
+        font-size: 15px;
+    }
+
+    .destaques-info-direita :last-child{
+        font-size: 15px;
+        width: 9em;
+    }
+}
+

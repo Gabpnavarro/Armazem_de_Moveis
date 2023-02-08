@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 img {
+    width: 254px;
+    height: 177px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+footer {
+    background-color:#AAFF83;
+    height: auto;
+    display: flex;
+}
+
+a:hover{
+    font-size: 20px;
+    transition: 1s;
+}
+
+button:hover {
+    font-size: 20px;
+    transition: 1s;
+}
+
+li {
+    font-size: 13px;
+}
+
+a{
+    color:black;
+}
+
+nav a{
+    margin: 5px;
+    text-decoration: none; 
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ul >li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.linha-horizontal {
+    width: 75%;
+    max-width: 1300px;
+    height: 1px;
+    background-color: black;
+    margin: 2em auto;
+}
+
+.titulo {
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+
+}
+
+.titulo a{
+    border: transparent;
+    font-size: 20px;
+    color:#1F6200;
+    text-decoration: none;
+}
+.container{
+    width: 70%;
+    margin: 2em auto;
+}
+
+.container > h2 {
+    margin: 1em;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.produto > img{
+    width: 280px;
+    height: 300px;
+}
+
+.produto h3:nth-of-type(2){
+    text-decoration: line-through;
+}
+
+.produto h3:nth-of-type(3){
+    color:#1F6200;
+}
+
+.espaco{
+    margin: 4em;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+}
+
+.footer nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.localizacao{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+
+
