@@ -1,8 +1,7 @@
 header {
-    background-color:#AAFF83;
+    background-color:var(--verde-claro);
     height: auto;
 }
-
 
 .cabecalho {
     display: flex;
@@ -78,7 +77,7 @@ button > title{
     padding-right: 90%;
     border-radius: 8px;
     border: none;
-    background: url(./img/lupa.svg) no-repeat right;
+    background: url(./src/img/lupa.svg) no-repeat right;
     background-color: white;
 }
 

@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
 
+:root {
+    --verde-claro: #AAFF83;
+    --verde-escuto: #1F6200;
+    --preto: #080808;
+    
+}
+
 *{
     box-sizing: border-box;
 }
@@ -8,6 +15,9 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+button , a{
+    cursor: pointer;
+}
 h1 img {
     width: 254px;
     height: 177px;
@@ -25,15 +35,24 @@ h4{
     font-size: 14px;
 }
 
+p {
+    font-size: 16px;
+}
+
 footer {
-    background-color:#AAFF83;
+    background-color:var(--verde-claro);
     height: auto;
     display: flex;
+}
+
+a{
+    text-decoration: none;
 }
 
 a:hover{
     font-size: 20px;
     transition: 1s;
+    text-decoration: none;
 }
 
 button:hover {
@@ -41,12 +60,8 @@ button:hover {
     transition: 1s;
 }
 
-li {
-    font-size: 13px;
-}
-
 a{
-    color:black;
+    color:var(--preto);
 }
 
 nav a{
@@ -55,7 +70,7 @@ nav a{
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #505050;
 }
 
 ul >li {
@@ -74,7 +89,7 @@ strong {
     width: 80%;
     max-width: 1300px;
     height: 1px;
-    background-color: black;
+    background-color: var(--preto);
     margin: 2em auto;
 }
 
@@ -97,6 +112,10 @@ strong {
     margin: 4em;
 }
 
+.paginas{
+    
+    margin: 2em auto;    
+}
 
 
 
