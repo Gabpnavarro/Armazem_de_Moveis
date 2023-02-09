@@ -115,7 +115,9 @@ button > title{
 @media (max-width: 768px) {
 
     .itens-geral{
-        height: 50px;
+        height: auto;
+        padding-bottom: 1em;
+        padding-top: 1em;
     }
 
     .itens-geral ul {
@@ -129,10 +131,6 @@ button > title{
 }
 
 @media (max-width: 500px) {
-
-    .itens-geral{
-        height: 70px;
-    }
 
     .itens-geral ul {
         width: 70vw;

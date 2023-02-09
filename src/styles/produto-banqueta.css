@@ -112,10 +112,21 @@ p {
     margin: 2em auto;
 }
 
-.titulo > h2 {
+.titulo-outros-produtos > h2 {
     font-weight: 400;
     margin-bottom: 1em;
-    margin-left: 0em;
+}
+
+.produtos-de-outros-produtos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.produtos-de-outros-produtos > .produto{
+    margin-top: 1em;
 }
 
 
@@ -175,6 +186,7 @@ p {
 
     .fotos-secundarias>img{
         width: 30%;
+        height: auto;
     } 
 
     .informacoes-sobre-o-produto{
