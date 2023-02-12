@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="./src/styles/cabecalho.css">
+    <link rel="stylesheet" href="./src/styles/rodape.css">
     <link rel="stylesheet" href="./src/styles/destaques.css">
     <link rel="stylesheet" href="./src/styles/mais-vendidos-liquidacao.css">
-    <link rel="stylesheet" href="./src/styles/rodape.css">
+    <link rel="stylesheet" href="./src/styles/produto-banqueta.css">
+    <link rel="stylesheet" href="./src/styles/produtos.css">
     <link rel="stylesheet" href="./src/styles/style-responsive.css">
     <link rel="stylesheet" href="./src/styles/style-produtos.css">
-    <link rel="stylesheet" href="./src/styles/produto-banqueta.html">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
@@ -22,10 +23,13 @@
 <body>
     <header>
         <div class="cabecalho">
-            <h1><img src="./src/img/logo-armazem-de-moveis-1.png " alt="Logo armazém de moveis" ></h1>
+            <a href="index.html"><h1><img src="./src/img/logo-armazem-de-moveis-1.png " alt="Logo armazém de moveis"></h1></a>
 
-            <form class="busque-no-armazem">                           
+            <form> 
+                <div class="busque">                        
                 <input type="text" id="busque" class="input-padrao" placeholder="Busque no Armazém">
+                <button class="lupa"><img src="./src/img/lupa.svg" alt="Lupa"></button>
+                </div>  
             </form>
 
             <nav>
@@ -64,7 +68,7 @@
 
                 <div class="destaques-fotos">
                     <button class="vetor"><img src="./src/img/seta-esquerda.svg" alt="Ícone da seta para esquerda"></button>                        
-                    <a href="produto-sofa.html"><img class="img-destaques" src="./src/img/sofa.png" alt="Imagem de um sofá de 2 lugares"></a>
+                    <img class="img-destaques" src="./src/img/sofa.png" alt="Imagem de um sofá de 2 lugares">
                     <button class="vetor"><img src="./src/img/seta-direita.svg" alt="Ícone da seta para direita"></button>   
                 </div>
 
@@ -80,7 +84,7 @@
 
                     <div class="destaques-info-direita">
                         <button id="compre-agora">Compre agora!</button>
-                        <button>Mais informações</button>
+                        <a href="produtos.html">Mais informações</a>
                     </div>
 
                 </div>    

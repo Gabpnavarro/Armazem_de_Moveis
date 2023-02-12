@@ -13,7 +13,7 @@
 .destaques-fotos-informacoes{
     border: solid #578940 1px;
     border-radius: 8px;
-    height: 50vh;
+    height: auto;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -26,7 +26,7 @@
     align-items: center;
     position: relative;
     justify-content: space-between;
-    height: 36.8vh;
+    height: 316px;
 }
 
 .vetor {    
@@ -64,7 +64,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 13vh;
+    height: auto;
     border-radius: 0px 0px 8px 8px;
     box-shadow: 0px -1px 2px 0px gray;
 }
@@ -110,6 +110,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 #compre-agora{
@@ -131,12 +133,15 @@
     background-color: transparent;
     border: 1px solid;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
 
-    .destaques-fotos > img{
-        height: 25vh;
+    .destaques-fotos{
+        height: 260px;
     }
 
     .preco-promocional h2:last-child{
@@ -151,25 +156,21 @@
         font-size: 16px;
     }
 
-    .destaques-informacoes {
-        height: 12.9vh;
-    }
-
 }
 
 @media (max-width: 500px) {
+
+    .destaques-fotos{
+        height: 200px;
+    }
 
     .destaques>h2{
         text-align: center;
     }
 
-    .destaques-fotos{
-        height: 30vh;
-    }
     .destaques-informacoes{
         flex-direction: column;
         text-align: center;
-        height: auto;
         gap: 1em;
         padding: 1em;
         width: 100%;
@@ -183,6 +184,11 @@
 }
 
 @media (max-width: 300px) {
+
+    .destaques-fotos{
+        height: 120px;
+    }
+
     #compre-agora{
         font-size: 15px;
     }

@@ -10,21 +10,25 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="./src/styles/cabecalho.css">
+    <link rel="stylesheet" href="./src/styles/rodape.css">
     <link rel="stylesheet" href="./src/styles/destaques.css">
     <link rel="stylesheet" href="./src/styles/mais-vendidos-liquidacao.css">
-    <link rel="stylesheet" href="./src/styles/rodape.css">
+    <link rel="stylesheet" href="./src/styles/produto-banqueta.css">
+    <link rel="stylesheet" href="./src/styles/produtos.css">
     <link rel="stylesheet" href="./src/styles/style-responsive.css">
     <link rel="stylesheet" href="./src/styles/style-produtos.css">
-    <link rel="stylesheet" href="./src/styles/produto-banqueta.html">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="cabecalho">
-            <h1><img src="./src/img/logo-armazem-de-moveis-1.png " alt="Logo armazém de moveis" ></h1>
+            <a href="index.html"><h1><img src="./src/img/logo-armazem-de-moveis-1.png " alt="Logo armazém de moveis"></h1></a>
 
-            <form class="busque-no-armazem">                           
+            <form> 
+                <div class="busque">                        
                 <input type="text" id="busque" class="input-padrao" placeholder="Busque no Armazém">
+                <button class="lupa"><img src="./src/img/lupa.svg" alt="Lupa"></button>
+                </div>  
             </form>
 
             <nav>
@@ -80,26 +84,29 @@
                         <h2>Cores</h2>
                     </div>
 
-                    <form>                           
-                        <input type="text" id="busque-cor" class="input-padrao" placeholder="Busque pela cor desejada">
+                    <form>
+                        <div class="busque">                              
+                            <input type="text" id="busque-cor" class="input-padrao" placeholder="Busque pela cor desejada">
+                            <button class="lupa"><img src="./src/img/lupa.svg" alt="Lupa"></button>
+                        </div>
                     </form>
 
                     <div class="cores">
                         <div class="cores-esquerda">
-                            <h3>Amarelo</h3>
-                            <h3>Azul</h3>
-                            <h3>Bege</h3>
-                            <h3>Branco</h3>
-                            <h3>Cinza</h3>
-                            <h3>Colorido</h3>
+                            <label><input type="checkbox">Amarelo</label>
+                            <label><input type="checkbox">Azul</label>
+                            <label><input type="checkbox">Bege</label>
+                            <label><input type="checkbox">Branco</label>
+                            <label><input type="checkbox">Cinza</label>
+                            <label><input type="checkbox">Colorido</label>
                         </div>
                         <div class="cores-direita">
-                            <h3>Dourado</h3>
-                            <h3>Laranja</h3>
-                            <h3>Lilás</h3>
-                            <h3>Madeira</h3>
-                            <h3>Marrom</h3>
-                            <h4>Ver mais</h4>
+                            <label><input type="checkbox">Dourado</label>
+                            <label><input type="checkbox">Laranja</label>
+                            <label><input type="checkbox">Lilás</label>
+                            <label><input type="checkbox">Madeira</label>
+                            <label><input type="checkbox">Marrom</label>
+                            <a>Ver mais</a>
                         </div>     
                     </div> 
 

@@ -96,7 +96,25 @@
 
 .cores{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+}
+
+.cores-esquerda{
+    display: flex;
+    flex-direction: column;
+}
+
+.cores-direita{
+    display: flex;
+    flex-direction: column;
+}
+
+.cores-direita > a {
+    border: transparent;
+    font-size: 16px;
+    color:#1F6200;
+    text-decoration: none;
 }
 
 .preco{
@@ -123,6 +141,10 @@
     transition: 1s;
 }
 
+.paginas{
+    margin: 2em auto;    
+}
+
 @media (max-width: 1000px) {
     .main-produtos{
         flex-direction: column;
@@ -138,5 +160,7 @@
         justify-content: space-between;
     }
 }
+
+
 
 
