@@ -1,2 +1,3 @@
 # armazemdemadeira
-Projeto para treinamento de um armazém de madeira, inspiração através do trabalho do autor Leonardo Dvojatzki.
+
+Projeto realizado com intuito de aprendizagem dos ensinamentos dados da plataforma de estudos Alura. Fiz um website chamado armazém de moveis, inspirado através do trabalho do autor Leonardo Dvojatzki.
