@@ -9,6 +9,9 @@
     </ul>
     <h2>Uso</h2>
     <p>O website pode ser utilizado como um exemplo de projeto simples utilizando HTML e CSS. É um projeto de aprendizado que pode ser usado como base para a criação de     outros projetos de comércio eletrônico.</p>
+    <h2>Área de Designer</h2>
+    <p>Autor: Leonardo Dvojatzki</p>    
+    <p>Figma: https://www.figma.com/file/IuAJPPbN12xi9K1BVk8GmL/Beep?type=design&node-id=0-1</p> 
     <h2>Status</h2>
     <p>O projeto está concluído.</p>
   </body>
